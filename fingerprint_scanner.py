@@ -14,4 +14,3 @@ file_name = "DB4_B.zip"
 with ZipFile(file_name, 'r') as zip:
 
     zip.extractall()
-    print('Done!')
